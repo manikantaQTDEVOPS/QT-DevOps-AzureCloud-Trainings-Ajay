@@ -70,8 +70,8 @@ ETCDCTL_API=3 etcdctl --write-out=table snapshot status snapshot.db
  `sudo ETCDCTL_API=3 etcdctl --data-dir=/var/lib/from-backup snapshot restore /opt/etcd-backup.db`
 ![Preview](./Images/k8s243.png)
 
-* Change the `manifest etcd.yaml` file in the loaction of `/etc/kubernetes/manifests` to point to new location
-[Refer Here](https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070) for changind the etcd.yaml files steps are there.
+* Change the `manifest etcd.yaml` file in the location of `/etc/kubernetes/manifests` to point to new location
+[Refer Here](https://medium.com/@mehmetodabashi/backup-and-restore-etcd-cluster-on-kubernetes-93c19b1c070) for changing the etcd.yaml files steps are there.
 
 
 

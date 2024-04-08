@@ -441,7 +441,7 @@ spec:
    * [Refer Here](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#deployment-and-scaling-guarantees)
 * Persistent Storage
    * each pod will create its own pv/volume
-   * [REfer Here](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#stable-storage)
+   * [Refer Here](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#stable-storage)
 * Ordered, automated rolling updates.
    * [Refer Here](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#rolling-updates)
 ---

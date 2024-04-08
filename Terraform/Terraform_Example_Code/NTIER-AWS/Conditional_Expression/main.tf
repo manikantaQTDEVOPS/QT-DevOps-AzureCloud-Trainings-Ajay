@@ -12,3 +12,6 @@ resource "random_string" "bucket_names" {
   lower   = true
   numeric = false
 }
+
+
+

@@ -1207,6 +1207,7 @@ git push origin master
 ## strategy: matrix, maxParallel:
 * Using strategy: matrix and maxParallel  we can restrict some jobs refer below definition:
     * Using strategy: maxParallel we can define execution order of jobs, for an example: we have written 20 jobs but we want to execute only 2 jobs so this we can achieve by using maxParallel
+       * The parallel job strategy specifies how many duplicates of a job should run.
     * Using matrix job strategy we can build on multiple platforms 
     * [Refer Here](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/jobs-job-strategy?view=azure-pipelines) for official docs to understand completely strategy matrix
 

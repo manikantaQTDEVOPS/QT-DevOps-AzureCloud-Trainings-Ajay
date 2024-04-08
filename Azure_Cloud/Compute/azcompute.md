@@ -107,6 +107,7 @@ Azure Virtual Machines
    * Disk
    * Location
    * Size
+
 ![Preview](./Images/azcompute7.png)
 
 * We have created a Virtual machine and then the Resource visualizer image is as shown below
@@ -187,9 +188,12 @@ purpose: learning
 ![Preview](./Images/azcompute22.png)
 * Login into vm
    * Option:1 
+
    ![Preview](./Images/azcompute23.png)
    * Option:2
+
    * while login into linux vms, if we dont provide username then it will take systems current username but this doesn't work in powershell only linux or gitbash
+
 ![Preview](./Images/azcompute24.png)
 
 ### Create linux vm with username and key
@@ -1142,7 +1146,7 @@ Azure App Services - Azure PaaS
 -------------------------------
 * Azure App Services is known as Azure Pass, because we directley deploy our application into it, we are not worried about anything about vm or applications installing it. 
 * [Refer Here](https://learn.microsoft.com/en-us/azure/app-service/overview) for App Service overview
-* [Refer Here](https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-azure-portal) for a sample deployment app service\
+* [Refer Here](https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-azure-portal) for a sample deployment app service
 * Note: 
   * why we have use app service because it easy way to deploy our app with code immediatley to azure and expore via domain
   * incase of virutal machine then we needs to create vm or vmss and install required platform like dotnet and applications then create service file to start application then to accces the application with dns zone and domain

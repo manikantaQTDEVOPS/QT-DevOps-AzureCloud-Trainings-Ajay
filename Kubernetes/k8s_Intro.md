@@ -1490,6 +1490,21 @@ echo -n "cGFzc3dvcmQ" | base64 --decode
 
 * To create azure key vault and configure with kubernetes just google it or watch youtube will be best.
 
+### Watch this below videos and refer below documents to understand external secrets how it works
+* [Refer Here](https://www.youtube.com/watch?v=V40tXvvKh5Y) and [Refer Here](https://www.youtube.com/watch?v=EegaqgEra28) for videos
+*  [Refer Here](https://external-secrets.io/latest/) for docs
+* **Here Is Below Simple steps for FastForward Remembering Steps about External Secrets:**
+```
+create namespace 
+install external secrets operator using helm repo
+create azure key vault and store all key, secrets and certificates into it
+using kubectl command create kubernetes secrets using clientid and clientsecret 
+create the secretstore manifest file
+create external secret manifest file 
+then use this external secrets as volume or envionment variable inside the pod and use it
+```
+
+
 
 ### Kubernetes Volumes:
 
